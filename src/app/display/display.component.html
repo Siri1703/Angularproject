@@ -1,0 +1,65 @@
+
+<h1>users</h1>
+    
+    <p>user names:</p>
+   <button type="submit" (click)="getmongousers()">details</button>
+    
+      <table >
+        <tr>
+          <th>name</th>
+          <th>email</th>
+         <!-- <th>password</th>-->
+        </tr>
+        <tr *ngFor="let r of mongousers">
+          <td>{{r.name}}</td>
+          <td>{{r.email}}</td>
+         <!-- <td>{{r.password}}</td>-->
+        </tr>
+        </table>
+       <!-- <button type="submit" (click)="info1()">details</button>
+      <h1 *ngFor="let h of detail">{{h.company.name}}</h1>
+        <table >
+          <tr>
+            <th>id</th>
+            <th>name</th>
+            <th>Address</th>
+      
+          </tr>
+          <tr *ngFor="let h of detail">
+            <td>{{h.id}}</td>
+            <td>{{h.name}}</td>
+            <td>{{h.address}}</td>
+          </tr>
+          </table>-->
+          <button type="submit" (click)="info1()">details</button>
+      <!-- <h1 *ngFor="let h of detail">{{h.company.name}}</h1>--> 
+        <table >
+          <tr>
+            <th>id</th>
+            <th>name</th>
+            <th>modelno</th>
+            <th>cost</th>
+      
+          </tr>
+          <tr *ngFor="let h of detail">
+            <td>{{h.lapid}}</td>
+            <td>{{h.name}}</td>
+            <td>{{h.modelno}}</td>
+            <td>{{h.cost}}</td>
+          </tr>
+          </table>
+          <form #n="ngForm" (ngSubmit)="adddetail(n)">
+           id: <input type="number" name="id" ngModel><br>
+           Name: <input type="text" name="name" ngModel><br>
+            Address:<input type="text" name="address" ngModel><br>
+            <input type="submit" value="submit">
+          </form><br><br><br>
+          <form #l="ngForm" (ngSubmit)="addlap(l)">
+            enter laptop id: <input type="number" name="lapid" ngModel><br>
+           enter laptop Name: <input type="text" name="name" ngModel><br>
+            enter laptop modelno:<input type="text" name="modelno" ngModel><br>
+            enter laptop cost:<input type="number" name="cost" ngModel><br>
+             <input type="submit" value="submit">
+           </form>
+          
+         <!--<button type="submit" (click)="adddetail()">add details</button>--> 

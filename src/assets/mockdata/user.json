@@ -1,0 +1,64 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "name": "cristin",
+      "address": "Helsinki"
+    },
+    {
+      "id": "2",
+      "name": "elanie",
+      "address": "Oslo"
+    },
+    {
+      "id": "3",
+      "name": "bhavika",
+      "address": "Tokyo"
+    },
+    {
+      "id": "4",
+      "name": "zara",
+      "address": "Berlin"
+    },
+    {
+      "id": "5",
+      "name": "Rakesh",
+      "address": "Moscow"
+    },
+    {
+      "id": "6",
+      "name": "Kavya",
+      "address": "Nairobi"
+    },
+    {
+      "id": "7",
+      "name": "Suresh",
+      "address": "Stockholm"
+    },
+    {
+      "id": 8,
+      "name": "siri",
+      "address": "xyz"
+    },
+    {
+      "id": 9,
+      "name": "siri",
+      "address": "xyz"
+    },
+    {
+      "id": 10,
+      "name": "ss",
+      "address": "hyd"
+    },
+    {
+      "id": 11,
+      "name": "siriii",
+      "address": "chennai"
+    },
+    {
+      "id": 12,
+      "name": "siriii",
+      "address": "banglore"
+    }
+  ]
+}

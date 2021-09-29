@@ -1,0 +1,22 @@
+<nav class="navbar navbar-light bg-primary">
+  <a class="navbar-brand" href="#">
+    
+    <h3>Angular App </h3>
+    
+  </a>
+ 
+</nav>
+
+<div class="sidebar">
+  <a class="active" routerLink="/mainhcomponent" routerLinkActive="active" >Home</a>
+  <a routerLink="/practicecomponent" routerLinkActive="active">Register</a>
+      <a routerLink="/homecomponent" routerLinkActive="active">Login</a>
+        <a routerLink="/displaycomponent" routerLinkActive="active">Display</a>
+        <button type="submit" (click)="log()">Logout</button>
+        <!--<button type="submit" (click)="signin()">Google</button>-->
+</div>
+
+<div class="content">
+  
+  <router-outlet></router-outlet>
+</div>
